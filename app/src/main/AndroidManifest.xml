@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dbdky.yfzx.mytest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ScopeChooseActivity" />
+        <activity android:name=".QuanwanggaikuangActivity" />
+        <activity android:name=".ShishixinxiActivity" />
+        <activity android:name=".AllWarningListActivity" />
+        <activity android:name=".MainDisplayViewListActivity" />
+        <activity android:name=".DevnetbaseListActivity" />
+        <activity android:name=".ManufactureStationStatListActivity" />
+        <activity android:name=".QuanwangInfoLancherListActivity" />
+        <activity android:name=".ListViewTableTestActivity" />
+        <activity android:name=".GuzhangbaogaoListActivity" />
+        <activity android:name=".SubstationInfoTableActivity" />
+        <activity android:name=".SecdevTableActivity" />
+        <activity android:name=".DevsettingsgzoneListActivity" />
+        <activity android:name=".DevBaseInfoLancherAvtivity" />
+        <activity android:name=".DevStatLancherListActivity" />
+        <activity android:name=".PtActionTableActivity" />
+        <activity android:name=".PtAlarmTableActivity" />
+        <activity android:name=".PtChangeTableActivity" />
+        <activity android:name=".PtOscTableActivity" />
+        <activity android:name=".FaultshortendataTableActivity"></activity>
+    </application>
+
+</manifest>
